@@ -1,0 +1,27 @@
+version: 1
+
+project:
+  title: "Project 2: Reproducibility in Natural Language Processing"
+  toc:
+    - file: index.md
+    - file: nlp-P01.ipynb
+    - file: nlp-P02.ipynb
+    - file: nlp-P03.ipynb
+    - file: nlp-P04.ipynb
+
+site:
+  template: book-theme
+  title: "Proj02 Group 23"
+  nav:
+    - title: "Home"
+      url: index.md
+    - title: "Part 1: Data Loading and Initial Exploration"
+      url: nlp-P01
+    - title: "Part 2: Simple Text Processing - Tokenization, Lemmatization, Word Frequency, Vectorization"
+      url: nlp-P02
+    - title: "Part 3: Advanced Text Processing - LDA and BERTopic Topic Modeling"
+      url: nlp-P03
+    - title: "Part 4: Choose your own adventure!"
+      url: nlp-P04
+    - title: "GitHub Repo"
+      url: "https://github.com/UCB-stat-159-f25/proj02-group23"
