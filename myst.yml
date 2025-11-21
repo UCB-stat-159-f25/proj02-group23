@@ -1,27 +1,39 @@
+# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
-
 project:
+  id: 890e70ba-0e39-41a0-943e-0fc625747135
   title: "Project 2: Reproducibility in Natural Language Processing"
+  # description:
+  # keywords: []
+  authors: ["Zhang, Tony", "Choi, Cyrus", "Chen, I Gy", "Goyal, Saachi"]
+  github: https://github.com/UCB-stat-159-f25/proj02-group23
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
     - file: index.md
     - file: nlp-P01.ipynb
     - file: nlp-P02.ipynb
     - file: nlp-P03.ipynb
     - file: nlp-P04.ipynb
-
 site:
   template: book-theme
-  title: "Proj02 Group 23"
   nav:
     - title: "Home"
-      url: index.md
-    - title: "Part 1: Data Loading and Initial Exploration"
-      url: nlp-P01
-    - title: "Part 2: Simple Text Processing - Tokenization, Lemmatization, Word Frequency, Vectorization"
-      url: nlp-P02
-    - title: "Part 3: Advanced Text Processing - LDA and BERTopic Topic Modeling"
-      url: nlp-P03
-    - title: "Part 4: Choose your own adventure!"
-      url: nlp-P04
-    - title: "GitHub Repo"
-      url: "https://github.com/UCB-stat-159-f25/proj02-group23"
+      url: "/"
+    - title: "Part 1"
+      url: "/nlp-p01"
+    - title: "Part 2"
+      url: "/nlp-p02"
+    - title: "Part 3"
+      url: "/nlp-p03"
+    - title: "Part 4"
+      url: "/nlp-p04"
+
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
+  title: "Project 2: Reproducibility in Natural Language Processing"
+  options:
+    search: true
+  actions:
+    - title: "Launch on Binder"
+      url: "https://mybinder.org/v2/gh/UCB-stat-159-f25/proj02-group23/HEAD?urlpath=tree"
