@@ -1,0 +1,6 @@
+AI tools were used only within the scope explicitly allowed by the course policy.
+The primary purposes of AI usage were:
+- Interpreting error messages related to Python packages (spaCy, BERTopic, pyLDAvis, etc.).
+- Troubleshooting conda environment issues, kernel configuration, and version conflicts.
+- Understanding how certain libraries or functions work (e.g., topic modeling workflow, spaCy pipeline behavior).
+- Receiving guidance on how to format Markdown sections and write clear comments.
